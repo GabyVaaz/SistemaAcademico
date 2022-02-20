@@ -9,8 +9,10 @@ namespace SistemaAcademico.Model
     class Pessoa
     {
         //Atributos - Variáveis de Classe
-        public long cpf;
-        public string nome;
+        public string Nome;
+        public string cpf;
+        public string endereco;
+        public string telefone;
         public DateTime dataNascimento;
     }
 }
